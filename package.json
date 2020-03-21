@@ -1,8 +1,5 @@
 {
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  },
   "dependencies": {
-    "mongoose": "^5.9.5"
+    "@material-ui/icons": "^4.9.1"
   }
 }
