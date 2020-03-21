@@ -1,0 +1,90 @@
+@font-face{
+    font-family: Vogue;
+    src: url('./assets/Vogue.ttf')
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-image: url('./assets/backgroud.svg');
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#imglogo{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-start: 1;
+}
+#input{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-start: 1;
+    margin-top: 50%;
+    margin-left: 50%;
+}
+
+#inputarea{
+    padding: 10px;
+    border-top: 1px solid #DCC420;
+    border-bottom: 1px solid #DCC420;
+}
+input{
+    font-size: 38px;
+    background: none;
+    border: none;
+    color: #DCC420;
+    font-family: Vogue;
+    
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+button{
+    background: none;
+    border: none;
+    font-family: Vogue;
+    color: #DCC420;
+    position: relative;
+}
+button:hover{
+    top:-2px;border-bottom:2px solid #DCC420
+    
+}
+
+::-webkit-input-placeholder { 
+    color: #DCC420;
+  }
+:-moz-placeholder { 
+    color: #DCC420;
+  }
+:-ms-input-placeholder { 
+    color: #DCC420;
+  }
+:-moz-placeholder { 
+    color: #DCC420;
+  }
+#imglogo img{
+    height:99.5vh;
+}
+
+#inputarea img{
+    height: 38px;
+    width: 38px;
+}
+
+#logo{
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 26vw;
+}
